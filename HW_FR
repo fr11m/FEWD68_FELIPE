@@ -1,0 +1,33 @@
+
+  Rock, Paper, Scissors
+
+
+1. userChoice = prompt user ("Do you choose rock, paper or scissors?")
+
+2. computerChoice = computes a random number between 0 and 1
+
+3. if computerChoice < 0.34
+  then computerChoice = "rock"
+
+4.if computerChoice <= 0.67 
+  then computerChoice = "paper"
+  
+  else  computerChoice = "scissors"
+
+6.compare userChoice vs computerChoice
+
+ 7. if userChoice = computerChoice 
+         result is a tie
+         
+ 8. if userChoice = "rock"  and computerChoice = "scissors" 
+            result "rock" wins
+            
+     else   result paper wins
+    
+    
+  9.  if userChoice = "paper" and computerChoice = "rock"
+            result "paper" wins
+            
+        
+   else   return "scissors" wins
+    
